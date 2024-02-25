@@ -1,0 +1,22 @@
+/* styles.css */
+@keyframes rotateColors {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.circular-animation {
+  animation: rotateColors 10s linear infinite;
+}
+
+.glass-morphism-bg {
+  margin: 30px;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(1px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}

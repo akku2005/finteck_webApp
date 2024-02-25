@@ -1,0 +1,16 @@
+[
+    {
+      "title": "Slide 1",
+      "subtitle1": "Subtitle 1 for Slide 1",
+      "subtitle2": "Subtitle 2 for Slide 1",
+      "buttonText": "Button 1",
+      "imgSrc": "https://placekitten.com/800/400"
+    },
+    {
+      "title": "Slide 2",
+      "subtitle1": "Subtitle 1 for Slide 2",
+      "subtitle2": "Subtitle 2 for Slide 2",
+      "buttonText": "Button 2",
+      "imgSrc": "https://placekitten.com/800/401"
+    }
+  ]

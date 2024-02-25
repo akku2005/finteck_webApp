@@ -1,0 +1,29 @@
+
+.glass-morphism-bg {
+  background-color: black; 
+}
+
+.glass-morphism-card {
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 32px;
+  padding: 48px 0 96px;
+  opacity: 1;
+  transform: perspective(1200px);
+}
+
+.text-3xl {
+  font-size: 3rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-black {
+  color: black;
+}
