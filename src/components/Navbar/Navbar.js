@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import logo from "../assets/bird_2.jpg";
+import logo from "../../assets/bird_2.jpg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-gradient-to-r to-transparent p-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Left side - Company Logo */}
-        <div className="flex items-center mt-1">
+        <div className="flex items-center mt-1 bg-blend-multiply">
           <Image
             src={logo} // Add the correct path to your company logo
             alt="Company Logo"
@@ -52,7 +52,7 @@ const Navbar = () => {
 
         {/* Right side - Download button (Visible on larger screens) */}
         <div className="hidden lg:flex items-center">
-          <button className="bg-white text-blue-500 px-4 py-2 rounded-md mr-4">
+          <button className="bg-white text-black px-4 py-2 rounded-full mr-4">
             Download
           </button>
         </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
         {/* Mobile menu (Visible on smaller screens when menu is open) */}
         {isMenuOpen && (
           <div className="lg:small fixed top-0 left-0 w-full h-full flex justify-center items-center bg-opacity-30 backdrop-filter backdrop-blur-sm">
-            <div className="bg-white bg-opacity-30 backdrop-filter backdrop-blur-md rounded-md p-4 relative">
+            <div className="bg-black bg-opacity-1 backdrop-filter backdrop-blur-md rounded-md p-4 relative">
               <ul className="space-y-4">
                 <li>
                   <a href="#" className="text-white hover:text-black">

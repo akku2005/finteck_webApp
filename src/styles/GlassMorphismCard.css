@@ -1,15 +1,20 @@
+/* GlassMorphismCard.css */
 
 .glass-morphism-bg {
-  background-color: black; 
+  background-color: white;
 }
 
-.glass-morphism-card {
+.glass {
   backdrop-filter: blur(20px);
-  background-color: rgba(255, 255, 255, 0.1); 
-  border-radius: 32px;
+  background-color: white; 
+  border-radius: 40px;
   padding: 48px 0 96px;
   opacity: 1;
+  margin-top: -35px;
+  margin-left: 25px;
+  margin-right: 25px;
   transform: perspective(1200px);
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth animation */
 }
 
 .text-3xl {
@@ -26,4 +31,9 @@
 
 .text-black {
   color: black;
+}
+
+/* Add class to apply animation when scrolled to the top */
+.slide-up {
+  transform: translateY(-60px);
 }

@@ -1,0 +1,12 @@
+/* ThirdFram.module.css */
+
+.glassMorphismSection {
+    background: rgb(16,16,17); /* Adjust the background color and opacity */
+    backdrop-filter: blur(10px); /* Adjust the blur effect */
+    border-radius: 40px; /* Adjust the border radius as needed */
+    padding: 20px; /* Adjust the padding as needed */
+    margin: 20px; /* Adjust the margin as needed */
+    margin-top: -20px;
+    
+  }
+  
